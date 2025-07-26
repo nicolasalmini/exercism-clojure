@@ -15,8 +15,3 @@
    candidates]
   ;; (filter (partial anagram? target-word) candidates))
   (filter #(anagram? target-word %) candidates))
-
- 
-(anagrams-for "BANANA" ["BANANA" "banana" "nanaba" "NANABA"])
-
-(anagram/anagrams-for "BANANA" ["banana"])
