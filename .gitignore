@@ -7,4 +7,14 @@ status/
 */status/
 **/status/
 
+# More clojure BS
+.lsp/
+.clj-kondo/
+.calva/
+.lein-failures
+.lein-repl-history
+.nrepl-port
 
+.cpcache/
+
+target/
